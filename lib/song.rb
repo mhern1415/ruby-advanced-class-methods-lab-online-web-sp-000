@@ -30,6 +30,6 @@ class Song
   
   def self.find_by_name(title)
     song.name = title 
-    
+    @@all.find{|person| person.name == name}
 
 end
